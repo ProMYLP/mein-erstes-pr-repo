@@ -113,7 +113,7 @@ for ch, wch in zip(name, widths):
 
 # ================= Subtitle "AFFIRMATION ART" with side rules =================
 sub_font = load("Italiana-Regular.ttf", int(40 * SS))
-sub = "A F F I R M A T I O N   A R T"
+sub = "A R T   P R I N T S   &   G I F T S"
 sb = draw.textbbox((0, 0), sub, font=sub_font)
 sub_w = sb[2] - sb[0]
 sub_y = int(H * 0.75)

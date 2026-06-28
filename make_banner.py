@@ -97,7 +97,7 @@ for ch, wch in zip(name, widths):
 
 # ---- Tagline ----
 sub_font = load("Italiana-Regular.ttf", int(52 * SS))
-sub = "P O S I T I V E   A F F I R M A T I O N   W A L L   A R T   &   G I F T S"
+sub = "U N I Q U E   A I   A R T   ·   P R I N T S   ·   M U G S   ·   G I F T S"
 sb = draw.textbbox((0,0), sub, font=sub_font)
 sw = sb[2]-sb[0]
 sy = int(H*0.62)
